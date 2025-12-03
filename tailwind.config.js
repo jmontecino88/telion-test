@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
       colors: {
         telion: {
           50: "#f6f9ff",
@@ -19,6 +22,7 @@ export default {
           800: "#172f8f",
           900: "#162a75",
           950: "#0f1c4c",
+          accent: "#06b6d4", // AGREGADO
         },
       },
     },
